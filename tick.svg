@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="UI-Element" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <g id="Rectangle-1-+-Rectangle-1" sketch:type="MSLayerGroup" transform="translate(0.000000, 23.864407)">
+                <path d="M28.536539,106.706007 L102.169099,180.338567 L74.4680906,208.039575 L0.835530989,134.407015 L28.536539,106.706007 L28.536539,106.706007 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+                <path d="M73.8816599,154.06738 L226.926288,1.02275261 L254.627296,28.7237606 L101.582668,181.768388 L73.8816599,154.06738 L73.8816599,154.06738 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

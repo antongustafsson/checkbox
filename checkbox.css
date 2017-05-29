@@ -1,0 +1,58 @@
+.cb-checkbox{
+  -webkit-user-select: none;
+  cursor: default;
+  display: inline-block;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  outline: 0;
+}
+
+.cb-checker{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  float: left;
+  transition: background-color 0.2s;
+  border: 2px solid #4A90E2;
+}
+
+.cb-tick{
+  position: absolute;
+  background-image: url(tick.svg);
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  transform: scale(0);
+  transition: transform 0.1s;
+}
+
+.cb-checkbox:active > .cb-checker{
+  transition: none;
+}
+
+.cb-checked{
+  transform: scale(1);
+}
+
+.cbr-checked{
+  background-color: #4A90E2;
+}
+
+.cb-checkbox:active > .cb-checker{
+  background-color: rgba(73, 143, 226, 0.5);
+}
+
+.cb-checkbox:active > .cbr-checked{
+  background-color: #417fc8;
+  border-color: #417fc8;
+}
+
+.cb-label{
+  font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  margin-left: 8px;
+  float: left;
+}
